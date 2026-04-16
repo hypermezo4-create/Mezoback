@@ -166,11 +166,13 @@ private fun SettingsScreen(padding: PaddingValues) {
         }
         GlowCard {
             Text("Planned Real Integrations", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary)
-            Text("• Project import
+            Text(
+                """• Project import
 • Script runner
 • Partition tools
 • Temp cleanup
-• Report export")
+• Report export"""
+            )
         }
     }
 }
